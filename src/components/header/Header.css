@@ -1,0 +1,102 @@
+.header-light {
+    width: 100%;
+    border-bottom: 4px solid #17285E;
+    background-color: #FAFAFA;
+}
+.header-dark {
+    width: 100%;
+    border-bottom: 4px solid rgb(250, 250, 250);
+    background-color: #17285E;
+}
+
+.header-content-light {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    color: #17285E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.header-content-dark {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.logo-light {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #17285E;
+}
+
+.logo-dark {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #FAFAFA;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.pokeball {
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.theme-button-light {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #17285E;
+    padding: 6px 24px;
+    border-radius: 10px;
+    background-color: rgb(250, 250, 250);
+    border: 3px solid #17285E;
+    transition: 0.2s ease;
+}
+
+.theme-button-light:hover {
+    color: rgb(250, 250, 250);
+    background-color: #17285E;
+    border: 3px solid #17285E;
+}
+
+.theme-button-dark {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(250, 250, 250);
+    padding: 6px 24px;
+    border-radius: 10px;
+    background-color: #17285E;
+    border: 3px solid rgb(250, 250, 250);
+    transition: 0.2s ease;
+}
+
+.theme-button-dark:hover {
+    color: #17285E;
+    background-color: rgb(250, 250, 250);
+    border: 3px solid rgb(250, 250, 250);
+}
+
+.link {
+    text-decoration: none;
+}

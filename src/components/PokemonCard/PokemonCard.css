@@ -1,0 +1,84 @@
+.card-light {
+    position: relative;
+    width: 225px;
+    height: 300px;
+    padding: 20px;
+    background-image: linear-gradient(#394263, white);
+    border: 4px solid var(--border-blue);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.card-light:hover {
+    box-shadow: -1px 1px var(--border-blue),
+                -2px 2px var(--border-blue),
+                -3px 3px var(--border-blue),
+                -4px 4px var(--border-blue),
+                -5px 5px var(--border-blue),
+                -6px 6px var(--border-blue),
+                -7px 7px var(--border-blue),
+                -8px 8px var(--border-blue),
+                -9px 9px var(--border-blue),
+                -10px 10px var(--border-blue);
+    transform: translate(10px,-10px);
+    z-index: 1;
+}
+
+.card-dark {
+    position: relative;
+    width: 225px;
+    height: 300px;
+    padding: 20px;
+    background-image: linear-gradient(white, #394263);
+    border: 4px solid white;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.card-dark:hover {
+    box-shadow: -1px 1px white,
+                -2px 2px white,
+                -3px 3px white,
+                -4px 4px white,
+                -5px 5px white,
+                -6px 6px white,
+                -7px 7px white,
+                -8px 8px white,
+                -9px 9px white,
+                -10px 10px white;
+    transform: translate(10px,-10px);
+    z-index: 1;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-id {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: var(--border-blue);
+}
+
+.card-sprite {
+    height: 200px;
+}
+
+.card-name-light {
+    font-family: 'Poppins', sans-serif;
+    color: var(--border-blue);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.card-name-dark {
+    font-family: 'Poppins', sans-serif;
+    color: #b6bff1;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}

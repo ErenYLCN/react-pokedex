@@ -1,0 +1,16 @@
+.app {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    color: var(--border-blue);
+}
+
+.pokelist-content {
+    padding: 50px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    min-height: 80vh;
+}
